@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/imagem/favicon-32x32.png" type="image/x-icon">
+  <title>Loteria</title>
+</head>
+<body>
+  <header id="header">
+      <a href="/pag_sobre.html"><img src="/imagem/favicon-32x32.png" alt="Trevo de 4 folhas"></a>
+        <nav class="nav">
+          <ul class="menu">
+            <li><a class="item" href="/pag_sobre.html">Sobre o projeto</a></li>
+          </ul>
+        </nav>
+  </header>
+    
+<main>
+  <div class="main-grid">
+    <div>
+        <img class="img-principal" src="/imagem/Leprechaun-cuate.svg" alt="">
+    </div>
+      
+    <div class="box-main">  
+      <img src="/imagem/favicon-32x32.png" alt="Trevo de 4 folhas">
+      <h1 class="titulo">Saiba os números <span class="titulo-detalhe">sorteados!</span></h1>
+      <div class="mostrar-num"><div id="output">Boa Sorte!</div> </div>
+      
+      <div class="button">
+      <button id="btnSortear" onclick="botaoSorteio()">Sortear</button>
+      </div>
+      <div class="button2">
+      <button id="btnLimpar" onclick="botaoLimpar()">Limpar</button>
+      </div>
+      <div class="ordem">Confira os números em ordem crescente!<span id="output-crescente"></span></div>
+    </div>
+    
+  </div>  
+
+    
+ 
+      
+</main>
+<footer>Unifor&copy;2022</footer>
+<script src="/js/script.js"></script>  
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+  /* box-shadow: 0 0 0 1px red; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* margin: auto;
+  width: 1000px; */
+  background-color: #e4e5e4;
+  font-family: 'EB Garamond', serif;
+}
+#header {
+  /* Aqui é pra alinhar as duas coisas do header
+  para ficarem um ao lado do outro, um no começo e 
+  um no fim. */
+  box-sizing: border-box;
+  display: flex;
+  background-color: #aff8c3;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.8rem;
+  padding-top: 6px;
+  }
+  .setinha {
+    text-decoration: none;
+    color: black;
+  }
+  .setinha:hover {
+    font-size: larger;
+  }
+  .item {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    /* display: flex; */
+  }
+  .item:hover {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  .div-img{
+    width: 280px;
+  }
+  ul {
+    list-style: none;
+  }
+  main {
+    margin: auto;
+    width: 1000px;
+    padding-top: 60px;
+  }
+  .grid-section1{
+    display: grid;
+    grid-template-columns:500px 450px;
+    border: 2px solid #90E4A8;
+    border-radius: 20px;
+    justify-content:space-around;
+    margin-bottom: 60px;
+  }
+  .grid-section2 {
+    display: grid;
+    grid-template-columns:500px 450px;
+    border: 2px solid #90E4A8;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .box-texto {
+    text-align: center;
+    margin: auto;
+  }
+.img-trevo {
+padding-top: 20px;
+width: 30px;
+margin: auto;
+}
+  .paragrafo::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #90E4A8;
+  }
+  .paragrafo {
+  text-indent: 4px;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  }
+
+  .detalhe {
+    content: " ";
+    display: inline-block;
+    margin: 5px;
+    height: 0.5px;
+    width: 400px;
+    background-color:#000000;
+  }
+  .descricao h3::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #90E4A8;
+  }
+  .section-lei {
+    padding-top: 30px;
+  }
+
+  .imagens-lista {
+    height: 350px;
+    overflow-y: scroll;
+    /* O que estourar o container no eixo y, quero que coloque no scroll*/
+  }
+  .imagens-lista::-webkit-scrollbar {
+    width: 20px;
+  }
+  .imagens-lista::-webkit-scrollbar-thumb {
+    background-color:#90E4A8;
+    border-left: 4px solid #e4e5e4;
+    border-right: 4px solid #e4e5e4;
+  }
+
+ 

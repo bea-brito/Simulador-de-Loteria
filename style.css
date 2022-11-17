@@ -1,0 +1,114 @@
+* {
+  /* box-shadow: 0 0 0 1px red; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e4e5e4;
+  font-family: 'EB Garamond', serif;
+}
+#header {
+  /* Aqui é pra alinhar as duas coisas do header
+  para ficarem um ao lado do outro, um no começo e 
+  um no fim. */
+  box-sizing: border-box;
+  display: flex;
+  background-color: #aff8c3;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.menu {
+display: flex;
+list-style: none;
+gap: 0.8rem;
+padding-top: 6px;
+}
+.item {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  /* display: flex; */
+}
+.item:hover {
+  background: rgba(0, 0, 0, .05);
+  border-radius: 5px;
+  padding: 5px;
+}
+.main-grid {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+}
+
+.mostrar-num {
+  background-color: #aff8c3;
+  border-radius: 10px;
+  height: 68px;
+  margin-bottom: 10px;
+}
+#output {
+  padding: 20px;
+  font-size: 20px;
+}
+.titulo::after {
+  content: " ";
+  background-color: #009821;
+  height: 2px;
+  width: 380px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titulo-detalhe {
+  color: #009821;
+}
+
+#btnSortear , #btnLimpar {
+  gap: 20px;
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #009821;
+}
+#btnSortear:hover {
+  height: 35px;
+  width: 65px;
+}
+#btnLimpar:hover {
+  height: 35px;
+  width: 65px;
+}
+.button {
+  display: inline;
+}
+.button2{
+  display: inline;
+}
+.box-main {
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.ordem {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display: grid;
+  grid-column: 2/2;
+}
+footer {
+  text-align: center;
+}
+
+
+
